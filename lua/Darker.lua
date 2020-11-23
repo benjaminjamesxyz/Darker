@@ -212,7 +212,6 @@ function Darker.colorscheme()
  vim.o.background = 'dark'
  vim.o.termguicolors = true
 
- Darker.terminal_color()
  local syntax = Darker.load_syntax()
 
  for group,colors in pairs(syntax) do
