@@ -1,6 +1,10 @@
 local Darker = {
  bg = '#0c1012';
- fg ='#dbdbdb';
+ fg = '#dbdbdb';
+
+ visual = '#141c1f';
+ comment = '#222d33';
+
  black ='#000000';
  none = 'NONE';
 }
@@ -62,7 +66,7 @@ function Darker.load_syntax()
   --SpellCap = {fg=Darker.blue,bg=Darker.none,style='undercurl'};
   --SpellLocal = {fg=Darker.cyan,bg=Darker.none,style='undercurl'};
   --SpellRare = {fg=Darker.violet,bg=Darker.none,style = 'undercurl'};
-  --Visual = {fg=Darker.black,bg=Darker.bg_visual};
+  Visual = {fg=Darker.none,bg=Darker.visual};
   --VisualNOS = {fg=Darker.black,bg=Darker.bg_visual};
   --QuickFixLine = {fg=Darker.violet,style='bold'};
   --Debug = {fg=Darker.orange};
@@ -98,7 +102,7 @@ function Darker.load_syntax()
   --Macro = {fg=Darker.cyan};
   --Identifier = {fg=Darker.blue};
 
-  --Comment = {fg=Darker.base6};
+  Comment = {fg=Darker.comment};
   --SpecialComment = {fg=Darker.grey};
   --Todo = {fg=Darker.violet};
   --Delimiter = {fg=Darker.fg};
