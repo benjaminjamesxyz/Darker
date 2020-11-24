@@ -124,12 +124,12 @@ function Darker.load_syntax()
  Function = {fg=Darker.Function};
  Operator = {fg=Darker.Operator};
 
- Statement = {};
- Conditional = {};
- Repeat = {};
- Label = {};
- Keyword = {};
- Exception = {};
+ Statement = {fg=Darker.Statement};
+ Conditional = {fg=Darker.Conditional};
+ Repeat = {fg=Darker.Repeat};
+ Label = {fg=Darker.Label};
+ Keyword = {fg=Darker.Keyword};
+ Exception = {fg=Darker.Exception};
 
  }
  return syntax
