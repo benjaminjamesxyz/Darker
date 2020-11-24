@@ -4,6 +4,7 @@ local Darker = {
 
  visual = '#141c1f';
  comment = '#222d33';
+ specialcomment = '#253137';
 
  linenr = '#00c2c2';
  cursorlinenr = '';
@@ -11,7 +12,24 @@ local Darker = {
  matchparen = '#19A194';
  search = '#208FC5',
 
- black ='#000000';
+ errormsg = '#D32B22';
+ warningmsg = '#FFEA00';
+
+ menubg = '#EAE9E8';
+ pmenu = '#0A0C0F';
+ pmenusel = '#16181B';
+
+ tabLinefg = '#EAE9E8';
+ tabLinebg = '#253137';
+ tabLineSelfg = 'EAE9E8';
+ tabLinefillfg = 'EAE9E8';
+ tabLinefillbg = '#141b1f';
+
+ diffadd = '';
+ diffDelete = '';
+ diffChange = '';
+ signColumn = '';
+
  none = 'NONE';
 
  bold = 'bold';
@@ -38,6 +56,13 @@ function Darker.load_syntax()
 
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
   Search = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
+
+  ErrorMsg = {fg=Darker.errormsg, bg=Darker.none};
+  WarningMsg = {fg=Darker.warningmsg, bg=Darker.none};
+
+  TabLine = {fg=Darker.tabLinefg,bg=Darker.tabLinebg};
+  TabLineSel = {fg=Darker.tabLineSelfg,bg=Darker.background};
+  TabLineFill = {fg=Darker.tabLinefillfg,bg=Darker.tabLinefillbg};
 
   Terminal = {fg = Darker.fg, bg=Darker.bg};
   SignColumn = {fg=Darker.fg, bg=Darker.bg};
