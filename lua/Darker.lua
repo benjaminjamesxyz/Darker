@@ -15,7 +15,7 @@ local Darker = {
  errormsg = '#D32B22';
  warningmsg = '#FFEA00';
 
- menubg = '#EAE9E8';
+ menufg = '#EAE9E8';
  pmenu = '#0A0C0F';
  pmenusel = '#16181B';
 
@@ -34,6 +34,7 @@ local Darker = {
 
  bold = 'bold';
  underline = 'underline';
+ undercurl = 'undercurl';
 }
 
 function Darker.highlight(group, color)
@@ -68,6 +69,13 @@ function Darker.load_syntax()
   SignColumn = {fg=Darker.fg, bg=Darker.bg};
   VertSplit = {fg=Darker.black,bg=Darker.bg};
   Comment = {fg=Darker.comment};
+
+  WildMenu = {fg=Darker.menufg};
+  Pmenu = {fg=Darker.menufg, bg=Darker.pmenu};
+  PmenuSel = {fg=Darker.menufg, bg=Darker.pmenusel};
+  PmenuSbar = {fg=Darker.menufg};
+  PmenuThumb = {fg=Darker.menufg};
+
  }
  return syntax
 end
