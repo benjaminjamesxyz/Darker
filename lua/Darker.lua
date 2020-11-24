@@ -50,6 +50,15 @@ local Darker = {
  underline = 'underline';
  undercurl = 'undercurl';
  italic = 'italic';
+
+
+ Statement = '6b00ff';
+ Conditional = '6b00ff';
+ Repeat = '6b00ff';
+ Label = '6b00ff';
+ Keyword = '6b00ff';
+ Exception = '6b00ff';
+
 }
 
 function Darker.highlight(group, color)
@@ -114,6 +123,13 @@ function Darker.load_syntax()
  Identifier = {fg=Darker.Identifier};
  Function = {fg=Darker.Function};
  Operator = {fg=Darker.Operator};
+
+ Statement = {};
+ Conditional = {};
+ Repeat = {};
+ Label = {};
+ Keyword = {};
+ Exception = {};
 
  }
  return syntax
