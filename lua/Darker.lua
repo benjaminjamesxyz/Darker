@@ -40,6 +40,10 @@ local Darker = {
  Boolean = '#27AE60';
  Float = '#1ABC9C';
 
+ Identifier = '#208FC5';
+ Function = '#FDD835';
+ Operator = '#6b00ff';
+
  none = 'NONE';
 
  bold = 'bold';
@@ -106,6 +110,10 @@ function Darker.load_syntax()
  Number = {fg=Darker.Number};
  Boolean = {fg=Darker.Boolean};
  Float = {fg=Darker.Float};
+
+ Identifier = {fg=Darker.Identifier};
+ Function = {fg=Darker.Function};
+ Operator = {fg=Darker.Operator};
 
  }
  return syntax
