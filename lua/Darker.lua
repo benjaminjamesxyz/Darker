@@ -5,7 +5,7 @@ local Darker = {
  visual = '#141c1f';
  comment = '#222d33';
 
- linenr = '#18ffff';
+ linenr = '#008585';
  black ='#000000';
  none = 'NONE';
 }
