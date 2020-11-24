@@ -25,9 +25,9 @@ local Darker = {
  tabLinefillfg = 'EAE9E8';
  tabLinefillbg = '#141b1f';
 
- diffadd = '';
- diffDelete = '';
- diffChange = '';
+ diffadd = '#00eb78';
+ diffDelete = '#f44134';
+ diffChange = '#222d33';
  signColumn = '';
 
  none = 'NONE';
@@ -75,6 +75,11 @@ function Darker.load_syntax()
   PmenuSel = {fg=Darker.menufg, bg=Darker.pmenusel};
   PmenuSbar = {fg=Darker.menufg};
   PmenuThumb = {fg=Darker.menufg};
+
+  Diffadd = {fg=Darker.diffadd, bg=Darker.background, gui=Darker.bold};
+  DiffDelete = {fg=Darker.diffDelete, bg=Darker.background, gui=Darker.bold};
+  DiffChange = {fg=Darker.diffChange, bg=Darker.background, gui=Darker.bold};
+  SignColumn = {bg=Darker.background, gui=Darker.bold};
 
  }
  return syntax
