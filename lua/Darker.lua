@@ -12,7 +12,6 @@ local Darker = {
  matchparen = '#19A194';
  search = '#208FC5',
 
- errormsg = '#D32B22';
  warningmsg = '#FFEA00';
 
  menufg = '#EAE9E8';
@@ -29,11 +28,17 @@ local Darker = {
  diffDelete = '#f44134';
  diffChange = '#222d33';
 
+ error = '#D32B22';
+
+ specialkey = '#00FF11';
+ directory = '#6b00ff';
+
  none = 'NONE';
 
  bold = 'bold';
  underline = 'underline';
  undercurl = 'undercurl';
+ italic = 'italic';
 }
 
 function Darker.highlight(group, color)
@@ -56,7 +61,7 @@ function Darker.load_syntax()
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
   Search = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
 
-  ErrorMsg = {fg=Darker.errormsg, bg=Darker.none};
+  ErrorMsg = {fg=Darker.error, bg=Darker.none};
   WarningMsg = {fg=Darker.warningmsg, bg=Darker.none};
 
   TabLine = {fg=Darker.tabLinefg,bg=Darker.tabLinebg};
@@ -78,6 +83,15 @@ function Darker.load_syntax()
   DiffDelete = {fg=Darker.diffDelete, bg=Darker.background, gui=Darker.bold};
   DiffChange = {fg=Darker.diffChange, bg=Darker.background, gui=Darker.bold};
   SignColumn = {bg=Darker.background, gui=Darker.bold};
+
+  Bold = {gui=Darker.bold};
+  Underlined = {gui=Darker.undercurl};
+  Italic = {gui=Darker.italic};
+
+  Error = {fg=Darker.error, gui=Darker.undercurl};
+
+ SpecialKey = {fg=Darker.specialkey};
+ Directory = {fg=Darker.directory};
 
  }
  return syntax
