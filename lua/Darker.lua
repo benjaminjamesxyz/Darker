@@ -37,7 +37,7 @@ function Darker.load_syntax()
   CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=Darker.bold};
 
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
-  MatchParen = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
+  Search = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
 
   Terminal = {fg = Darker.fg, bg=Darker.bg};
   SignColumn = {fg=Darker.fg, bg=Darker.bg};
