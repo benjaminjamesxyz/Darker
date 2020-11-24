@@ -28,7 +28,6 @@ local Darker = {
  diffadd = '#00eb78';
  diffDelete = '#f44134';
  diffChange = '#222d33';
- signColumn = '';
 
  none = 'NONE';
 
@@ -42,8 +41,7 @@ function Darker.highlight(group, color)
  local fg = color.fg and 'guifg=' .. color.fg or 'guifg=NONE'
  local bg = color.bg and 'guibg=' .. color.bg or 'guibg=NONE'
  local gui = color.gui and 'gui=' .. color.gui or ''
- vim.api.nvim_command('highlight ' .. group .. ' ' .. style .. ' ' .. fg ..
-  ' ' .. bg..' '..gui)
+ vim.api.nvim_command('highlight ' .. group .. ' ' .. style .. ' ' .. fg ..' ' .. bg..' '..gui)
 end
 
 
