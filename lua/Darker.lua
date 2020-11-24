@@ -30,11 +30,11 @@ end
 
 function Darker.load_syntax()
  local syntax = {
-  Normal = {fg = Daker.fg, bg=Darker.bg};
+  Normal = {fg = Darker.fg, bg=Darker.bg};
   Visual = {fg=Darker.none, bg=Darker.visual};
 
   LineNr = {fg=Darker.linenr, bg=Darker.bg};
-  CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=bold};
+  CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=Darker.bold};
 
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
   MatchParen = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
