@@ -6,8 +6,16 @@ local Darker = {
  comment = '#222d33';
 
  linenr = '#00c2c2';
+ cursorlinenr = '';
+
+ matchparen = '#19A194';
+ search = '#208FC5',
+
  black ='#000000';
  none = 'NONE';
+
+ bold = 'bold';
+ underline = 'underline';
 }
 
 function Darker.highlight(group, color)
@@ -22,12 +30,17 @@ end
 
 function Darker.load_syntax()
  local syntax = {
-  Normal = {fg = Darker.fg,bg=Darker.bg};
-  Visual = {fg=Darker.none,bg=Darker.visual};
+  Normal = {fg = Daker.fg, bg=Darker.bg};
+  Visual = {fg=Darker.none, bg=Darker.visual};
 
-  LineNr = {fg=Darker.linenr, bg=Darker.bg},
-  Terminal = {fg = Darker.fg,bg=Darker.bg};
-  SignColumn = {fg=Darker.fg,bg=Darker.bg};
+  LineNr = {fg=Darker.linenr, bg=Darker.bg};
+  CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=bold};
+
+  MatchParen = {fg=Darker.matchparen, bg=Darker.none};
+  MatchParen = {fg=Darker.bg, bg=Darker.search, gui=Darker.underline};
+
+  Terminal = {fg = Darker.fg, bg=Darker.bg};
+  SignColumn = {fg=Darker.fg, bg=Darker.bg};
   VertSplit = {fg=Darker.black,bg=Darker.bg};
   Comment = {fg=Darker.comment};
  }
