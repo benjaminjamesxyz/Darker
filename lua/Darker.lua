@@ -33,6 +33,13 @@ local Darker = {
  specialkey = '#00FF11';
  directory = '#6b00ff';
 
+ Constant = '#27AE60';
+ String = '#E67E22';
+ Chatacter = '#E67E22';
+ Number = '#F1C40F';
+ Boolean = '#27AE60';
+ Float = '#1ABC9C';
+
  none = 'NONE';
 
  bold = 'bold';
@@ -92,6 +99,13 @@ function Darker.load_syntax()
 
  SpecialKey = {fg=Darker.specialkey};
  Directory = {fg=Darker.directory};
+
+ Constant = {fg=Darker.Constant};
+ String = {fg=Darker.String};
+ Chatacter = {fg=Darker.Chatacter};
+ Number = {fg=Darker.Number};
+ Boolean = {fg=Darker.Boolean};
+ Float = {fg=Darker.Float};
 
  }
  return syntax
