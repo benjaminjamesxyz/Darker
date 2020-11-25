@@ -52,12 +52,24 @@ local Darker = {
  italic = 'italic';
 
 
- Statement = '6b00ff';
- Conditional = '6b00ff';
- Repeat = '6b00ff';
- Label = '6b00ff';
- Keyword = '6b00ff';
- Exception = '6b00ff';
+ Statement = '#6b00ff';
+ Conditional = '#6b00ff';
+ Repeat = '#6b00ff';
+ Label = '#6b00ff';
+ Keyword = '#6b00ff';
+ Exception = '#6b00ff';
+
+ PreProc = '#E91E63';
+ Include = '#E91E63';
+ Define = '#E91E63';
+ Macro = '#E91E63';
+ PreCondit = '#E91E63';
+
+
+ Type = '#00E031';
+ StorageClass = '#1A237E';
+ Structure = '#0D47A1';
+ Typedef = '#B71C1C';
 
 }
 
@@ -130,6 +142,18 @@ function Darker.load_syntax()
  Label = {fg=Darker.Label};
  Keyword = {fg=Darker.Keyword};
  Exception = {fg=Darker.Exception};
+
+
+ PreProc = {fg=Darker.PreProc};
+ Include = {fg=Darker.Include};
+ Define = {fg=Darker.Include};
+ Macro = {fg=Darker.Macro};
+ PreCondit = {fg=Darker.PreCondit};
+
+ Type = {fg=Darker.Type};
+ StorageClass = {fg=Darker.StorageClass};
+ Structure = {fg=Darker.Structure};
+ Typedef = {fg=Darker.Typedef};
 
  }
  return syntax
