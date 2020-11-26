@@ -79,7 +79,7 @@ local Darker = {
  pythonQuotes = '#946257';
  pythonDot = '#03aefc';
 
- lusBraces = '#c6ff00';
+ luaBraces = '#c6ff00';
 
 }
 
@@ -191,7 +191,7 @@ function Darker.load_syntax()
  --pythonDoctest = {fg=};
  --pythonDoctestValue = {fg=};
  --
- lusBraces = {fg=Darker.lusBraces}
+ luaBraces = {fg=Darker.luaBraces}
  }
  return syntax
 end
