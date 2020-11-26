@@ -180,7 +180,7 @@ function Darker.load_syntax()
  pythonRawString = {fg=Darker.String};
  pythonQuotes = {fg=Darker.pythonQuotes};
  pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
- --pythonDot = {fg=Darker.pythonDot}
+ pythonDot = {fg=Darker.pythonDot}
  --pythonEscape = {fg=};
  pythonNumber = {fg=Darker.Number};
  --pythonBuiltin = {fg=};
