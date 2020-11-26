@@ -77,7 +77,7 @@ local Darker = {
 
  pythonTripleQuotes = '#946257';
  pythonQuotes = '#946257';
- pythonDot = '#176cbf';
+ pythonDot = '#03aefc';
 
 }
 
