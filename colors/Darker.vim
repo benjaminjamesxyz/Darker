@@ -1,1 +1,1 @@
-lua require('../lua/Darker')
+lua require('Darker')
