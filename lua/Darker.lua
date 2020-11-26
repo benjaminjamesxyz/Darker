@@ -73,8 +73,8 @@ local Darker = {
 
  SpecialChar = '#3599DB';
  Delimiter = '#28978C';
+ Todo = '#cbff14';
 
- pythonTodo = '#cbff14';
  pythonTripleQuotes = '#946257';
  pythonQuotes = '#946257';
 
@@ -164,6 +164,7 @@ function Darker.load_syntax()
 
  SpecialChar = {fg=Darker.SpecialChar};
  Delimiter = {fg=Darker.Delimiter};
+ Todo = {fg=Darker.Todo};
 
  pythonStatement = {fg=Darker.Statement};
  pythonConditional = {fg=Darker.Conditional};
@@ -174,7 +175,6 @@ function Darker.load_syntax()
  pythonDecorator = {fg=Darker.Define};
  pythonFunction = {fg=Darker.Function};
  pythonComment = {fg=Darker.comment};
- pythonTodo = {fg=Darker.pythonTodo};
  pythonString = {fg=Darker.String};
  pythonRawString = {fg=Darker.String};
  pythonQuotes = {fg=Darker.pythonQuotes};
@@ -186,7 +186,6 @@ function Darker.load_syntax()
  --pythonSpaceError = {fg=};
  --pythonDoctest = {fg=};
  --pythonDoctestValue = {fg=};
-
  }
  return syntax
 end
