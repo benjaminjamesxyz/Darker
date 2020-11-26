@@ -74,6 +74,8 @@ local Darker = {
  SpecialChar = '#3599DB';
  Delimiter = '#28978C';
 
+ pythonTodo = '#cbff14';
+
 }
 
 function Darker.highlight(group, color)
@@ -160,6 +162,28 @@ function Darker.load_syntax()
 
  SpecialChar = {fg=Darker.SpecialChar};
  Delimiter = {fg=Darker.Delimiter};
+
+ pythonStatement = {fg=Darker.Statement};
+ pythonConditional = {fg=Darker.Conditional};
+ pythonRepeat = {fg=Darker.Repeat};
+ pythonOperator = {fg=Darker.Operator};
+ pythonException = {fg=Darker.Exception};
+ pythonInclude = {fg=Darker.Include};
+ pythonDecorator = {fg=Darker.Define};
+ pythonFunction = {fg=Darker.Function};
+ pythonComment = {fg=Darker.comment};
+ pythonTodo = {fg=Darker.pythonTodo};
+ --pythonString = {fg=};
+ --pythonRawString = {fg=};
+ --pythonQuotes = {fg=};
+ --pythonTripleQuotes = {fg=};
+ --pythonEscape = {fg=};
+ --pythonNumber = {fg=};
+ --pythonBuiltin = {fg=};
+ --pythonExceptions = {fg=};
+ --pythonSpaceError = {fg=};
+ --pythonDoctest = {fg=};
+ --pythonDoctestValue = {fg=};
 
  }
  return syntax
