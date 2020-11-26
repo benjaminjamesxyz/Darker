@@ -76,6 +76,7 @@ local Darker = {
 
  pythonTodo = '#cbff14';
  pythonTripleQuotes = '#946257';
+ pythonQuotes = '#946257';
 
 }
 
@@ -176,7 +177,7 @@ function Darker.load_syntax()
  pythonTodo = {fg=Darker.pythonTodo};
  pythonString = {fg=Darker.String};
  pythonRawString = {fg=Darker.String};
- --pythonQuotes = {fg=};
+ pythonQuotes = {fg=Darker.pythonQuotes};
  pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
  --pythonEscape = {fg=};
  pythonNumber = {fg=Darker.Number};
