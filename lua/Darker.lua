@@ -77,6 +77,7 @@ local Darker = {
 
  pythonTripleQuotes = '#946257';
  pythonQuotes = '#946257';
+ pythonDot = '#176cbf';
 
 }
 
@@ -91,7 +92,7 @@ end
 
 function Darker.load_syntax()
  local syntax = {
-  Normal = {fg = Darker.fg, bg=Darker.bg};
+  Normal = {fg = }arker.fg, bg=Darker.bg};
   Visual = {fg=Darker.none, bg=Darker.visual};
 
   LineNr = {fg=Darker.linenr, bg=Darker.bg};
@@ -179,6 +180,7 @@ function Darker.load_syntax()
  pythonRawString = {fg=Darker.String};
  pythonQuotes = {fg=Darker.pythonQuotes};
  pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
+ pythonDot = {fg=Darker.pythonDot}
  --pythonEscape = {fg=};
  pythonNumber = {fg=Darker.Number};
  --pythonBuiltin = {fg=};
