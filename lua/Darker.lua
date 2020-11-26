@@ -203,6 +203,7 @@ function Darker.colorscheme()
  vim.g.colors_name = 'Darker'
  vim.o.background = 'dark'
  vim.o.termguicolors = true
+ vim.g.python_highlight_all = 1
 
  local syntax = Darker.load_syntax()
 
