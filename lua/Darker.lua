@@ -75,6 +75,7 @@ local Darker = {
  Delimiter = '#28978C';
 
  pythonTodo = '#cbff14';
+ pythonTripleQuotes = '#946257';
 
 }
 
@@ -173,12 +174,12 @@ function Darker.load_syntax()
  pythonFunction = {fg=Darker.Function};
  pythonComment = {fg=Darker.comment};
  pythonTodo = {fg=Darker.pythonTodo};
- --pythonString = {fg=};
- --pythonRawString = {fg=};
+ pythonString = {fg=Darker.String};
+ pythonRawString = {fg=Darker.String};
  --pythonQuotes = {fg=};
- --pythonTripleQuotes = {fg=};
+ pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
  --pythonEscape = {fg=};
- --pythonNumber = {fg=};
+ pythonNumber = {fg=Darker.Number};
  --pythonBuiltin = {fg=};
  --pythonExceptions = {fg=};
  --pythonSpaceError = {fg=};
