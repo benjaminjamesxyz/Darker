@@ -182,6 +182,7 @@ function Darker.load_syntax()
  pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
  --pythonEscape = {fg=};
  pythonNumber = {fg=Darker.Number};
+ pythonDot = {fg=Darker.pythonDot};
  --pythonBuiltin = {fg=};
  --pythonExceptions = {fg=};
  --pythonSpaceError = {fg=};
