@@ -71,6 +71,9 @@ local Darker = {
  Structure = '#0D47A1';
  Typedef = '#B71C1C';
 
+ SpecialChar = '#3599DB';
+ Delimiter = '#28978C';
+
 }
 
 function Darker.highlight(group, color)
@@ -154,6 +157,9 @@ function Darker.load_syntax()
  StorageClass = {fg=Darker.StorageClass};
  Structure = {fg=Darker.Structure};
  Typedef = {fg=Darker.Typedef};
+
+ SpecialChar = {fg=Darker.SpecialChar};
+ Delimiter = {fg=Darker.Delimiter};
 
  }
  return syntax
