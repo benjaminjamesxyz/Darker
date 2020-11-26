@@ -79,6 +79,8 @@ local Darker = {
  pythonQuotes = '#946257';
  pythonDot = '#03aefc';
 
+ lusBraces = '#c6ff00';
+
 }
 
 function Darker.highlight(group, color)
@@ -188,6 +190,8 @@ function Darker.load_syntax()
  --pythonSpaceError = {fg=};
  --pythonDoctest = {fg=};
  --pythonDoctestValue = {fg=};
+ --
+ lusBraces = {fg=Darker.lusBraces}
  }
  return syntax
 end
@@ -205,6 +209,7 @@ function Darker.colorscheme()
  vim.o.background = 'dark'
  vim.o.termguicolors = true
  vim.g.python_highlight_all = 1
+ vim.g.html_my_rendering = 1
 
  local syntax = Darker.load_syntax()
 
