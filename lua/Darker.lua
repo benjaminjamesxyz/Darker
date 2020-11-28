@@ -150,7 +150,7 @@ function Darker.load_syntax()
  Conditional = {fg=Darker.Conditional};
  Repeat = {fg=Darker.Repeat};
  Label = {fg=Darker.Label};
- Keyword = {fg=Darker.Keyword};
+ Keyword = {fg=Darker.Keyword, gui=Darker.italic};
  Exception = {fg=Darker.Exception};
 
 
