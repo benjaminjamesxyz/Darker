@@ -192,6 +192,7 @@ function Darker.load_syntax()
  --pythonDoctestValue = {fg=};
  --
  luaBraces = {fg=Darker.luaBraces}
+ luaLocal = {gui=Darker.bold}
  }
  return syntax
 end
