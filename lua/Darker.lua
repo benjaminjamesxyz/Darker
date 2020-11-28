@@ -190,9 +190,10 @@ function Darker.load_syntax()
  --pythonSpaceError = {fg=};
  --pythonDoctest = {fg=};
  --pythonDoctestValue = {fg=};
- --
+
  luaBraces = {fg=Darker.luaBraces};
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
+ luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic}
  }
  return syntax
 end
