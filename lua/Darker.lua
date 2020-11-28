@@ -143,7 +143,7 @@ function Darker.load_syntax()
  Float = {fg=Darker.Float};
 
  Identifier = {fg=Darker.Identifier};
- Function = {fg=Darker.Function};
+ Function = {fg=Darker.Function, gui=Darker.bold};
  Operator = {fg=Darker.Operator};
 
  Statement = {fg=Darker.Statement};
