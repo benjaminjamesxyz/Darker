@@ -77,7 +77,8 @@ local Darker = {
 
  pythonTripleQuotes = '#946257';
  pythonQuotes = '#946257';
- pythonDot = '#03aefc';
+
+ Dot = '#03aefc';
 
  luaBraces = '#c6ff00';
 
@@ -90,7 +91,6 @@ function Darker.highlight(group, color)
  local gui = color.gui and 'gui=' .. color.gui or ''
  vim.api.nvim_command('highlight ' .. group .. ' ' .. style .. ' ' .. fg ..' ' .. bg..' '..gui)
 end
-
 
 function Darker.load_syntax()
  local syntax = {
@@ -184,7 +184,7 @@ function Darker.load_syntax()
  pythonTripleQuotes = {fg=Darker.pythonTripleQuotes};
  --pythonEscape = {fg=};
  pythonNumber = {fg=Darker.Number};
- pythonDot = {fg=Darker.pythonDot};
+ pythonDot = {fg=Darker.Dot};
  --pythonBuiltin = {fg=};
  --pythonExceptions = {fg=};
  --pythonSpaceError = {fg=};
@@ -193,7 +193,8 @@ function Darker.load_syntax()
 
  luaBraces = {fg=Darker.luaBraces};
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
- luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic}
+ luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
+ luaDot = {fg=Darker.Dot};
  }
  return syntax
 end
@@ -208,8 +209,8 @@ function Darker.colorscheme()
   vim.api.nvim_command('syntax reset')
  end
  vim.g.colors_name = 'Darker'
- vim.o.background = 'dark'
- vim.o.termguicolors = true
+ vim.g.background = 'dark'
+ vim.g.termguicolors = true
  vim.g.python_highlight_all = 1
  vim.g.html_my_rendering = 1
 
