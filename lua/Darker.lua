@@ -82,6 +82,8 @@ local Darker = {
 
  luaBraces = '#c6ff00';
 
+ plugUpdate = '#00ff83';
+
 }
 
 function Darker.highlight(group, color)
@@ -97,7 +99,7 @@ function Darker.load_syntax()
   Normal = {fg=Darker.fg, bg=Darker.bg};
   Visual = {fg=Darker.none, bg=Darker.visual};
 
-  LineNr = {fg=Darker.linenr, bg=Darker.bg};
+  LineNr = {fg=Darer.linenr, bg=Darker.bg};
   CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=Darker.bold};
 
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
@@ -195,6 +197,8 @@ function Darker.load_syntax()
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
  luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
  luaDot = {fg=Darker.Dot};
+
+ plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold}
  }
  return syntax
 end
