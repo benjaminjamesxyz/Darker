@@ -99,7 +99,7 @@ function Darker.load_syntax()
   Normal = {fg=Darker.fg, bg=Darker.bg};
   Visual = {fg=Darker.none, bg=Darker.visual};
 
-  LineNr = {fg=Darer.linenr, bg=Darker.bg};
+  LineNr = {fg=Darker.linenr, bg=Darker.bg};
   CursorLineNr = {fg=Darker.cursorlinenr, bg=Darker.none, gui=Darker.bold};
 
   MatchParen = {fg=Darker.matchparen, bg=Darker.none};
