@@ -83,6 +83,7 @@ local Darker = {
  luaBraces = '#c6ff00';
 
  plugUpdate = '#00ff83';
+ plugName = '#6b00ff';
 
 }
 
@@ -198,7 +199,8 @@ function Darker.load_syntax()
  luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
  luaDot = {fg=Darker.Dot};
 
- plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold}
+ plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold};
+ plugName = {fg=Darker.plugName, gui=Darker.bold}
  }
  return syntax
 end
