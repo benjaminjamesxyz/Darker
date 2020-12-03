@@ -85,6 +85,8 @@ local Darker = {
  plugUpdate = '#00ff83';
  plugName = '#6b00ff';
 
+ scssProperty = '#E91E63';
+
 }
 
 function Darker.highlight(group, color)
@@ -200,7 +202,10 @@ function Darker.load_syntax()
  luaDot = {fg=Darker.Dot};
 
  plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold};
- plugName = {fg=Darker.plugName, gui=Darker.bold}
+ plugName = {fg=Darker.plugName, gui=Darker.bold};
+
+ scssProperty = {fg=Darker.scssProperty};
+
  }
  return syntax
 end
