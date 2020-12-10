@@ -198,8 +198,7 @@ function Darker.load_syntax()
 
  luaBraces = {fg=Darker.luaBraces};
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
- --luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
- luaDot = {fg=Darker.Dot};
+ luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
 
  plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold};
  plugName = {fg=Darker.plugName, gui=Darker.bold};
