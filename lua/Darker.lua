@@ -85,7 +85,7 @@ local Darker = {
  plugUpdate = '#00ff83';
  plugName = '#6b00ff';
 
- scssProperty = '#E91E63';
+ scssVariable = '#E91E63';
 
 }
 
@@ -198,13 +198,13 @@ function Darker.load_syntax()
 
  luaBraces = {fg=Darker.luaBraces};
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
- luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
+ --luaFuncKeyword = {fg=Darker.Keyword, gui=Darker.italic};
  luaDot = {fg=Darker.Dot};
 
  plugUpdate = {fg=Darker.plugUpdate, gui=Darker.bold};
  plugName = {fg=Darker.plugName, gui=Darker.bold};
 
- scssProperty = {fg=Darker.scssProperty};
+ scssVariable = {fg=Darker.scssVariable};
 
  }
  return syntax
