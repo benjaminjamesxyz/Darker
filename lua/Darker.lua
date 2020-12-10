@@ -42,7 +42,7 @@ local Darker = {
 
  Identifier = '#208FC5';
  Function = '#FDD835';
- Operator = '#3d4ad7';
+ Operator = '#ff2975';
 
  none = 'NONE';
 
