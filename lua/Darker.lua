@@ -6,7 +6,8 @@ local Darker = {
  comment = '#222d33';
  specialcomment = '#253137';
 
- linenr = '#00c2c2';
+ --linenr = '#00c2c2';
+ linenr = '#00e676';
  cursorlinenr = '';
 
  matchparen = '#19A194';
