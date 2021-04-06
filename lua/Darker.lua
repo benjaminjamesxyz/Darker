@@ -6,7 +6,6 @@ local Darker = {
  comment = '#546e7a';
  specialcomment = '#253137';
 
- --linenr = '#00c2c2';
  linenr = '#00e676';
  cursorlinenr = '';
 
@@ -23,8 +22,8 @@ local Darker = {
 
  tabLinefg = '#EAE9E8';
  tabLinebg = '#253137';
- tabLineSelfg = 'EAE9E8';
- tabLinefillfg = 'EAE9E8';
+ tabLineSelfg = '#EAE9E8';
+ tabLinefillfg = '#EAE9E8';
  tabLinefillbg = '#141b1f';
 
  diffadd = '#00eb78';
