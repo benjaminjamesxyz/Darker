@@ -18,8 +18,8 @@ local Darker = {
  warningmsg = '#FFEA00';
 
  menufg = '#EAE9E8';
- pmenu = '#0A0C0F';
- pmenusel = '#16181B';
+ pmenu = '#141b1f';
+ pmenusel = '#253137';
 
  tabLinefg = '#EAE9E8';
  tabLinebg = '#253137';
