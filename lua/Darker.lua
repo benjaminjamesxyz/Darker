@@ -117,7 +117,6 @@ function Darker.load_syntax()
   TabLineFill = {fg=Darker.tabLinefillfg,bg=Darker.tabLinefillbg};
 
   Terminal = {fg = Darker.fg, bg=Darker.bg};
-  SignColumn = {fg=Darker.fg, bg=Darker.bg};
   VertSplit = {fg=Darker.black,bg=Darker.bg};
   Comment = {fg=Darker.comment};
 
@@ -196,7 +195,6 @@ function Darker.load_syntax()
  --pythonSpaceError = {fg=};
  --pythonDoctest = {fg=};
  --pythonDoctestValue = {fg=};
- pythonDot = {fg=Darker.Dot};
 
  luaBraces = {fg=Darker.luaBraces};
  luaLocal = {fg=Darker.Type, gui=Darker.bold};
