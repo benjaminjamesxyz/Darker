@@ -10,6 +10,8 @@ local Darker = {
  linenr = '#00e676';
  cursorlinenr = '';
 
+ statusLine = '#00c2c2';
+
  matchparen = '#19A194';
  search = '#208FC5',
 
@@ -115,6 +117,8 @@ function Darker.load_syntax()
   TabLine = {fg=Darker.tabLinefg,bg=Darker.tabLinebg};
   TabLineSel = {fg=Darker.tabLineSelfg,bg=Darker.background};
   TabLineFill = {fg=Darker.tabLinefillfg,bg=Darker.tabLinefillbg};
+
+  StatusLine = {fg = Darker.statusLine, bg=Darker.bg};
 
   Terminal = {fg = Darker.fg, bg=Darker.bg};
   VertSplit = {fg=Darker.black,bg=Darker.bg};
