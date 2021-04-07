@@ -3,7 +3,7 @@ local Darker = {
  fg = '#dbdbdb';
 
  visual = '#141b1f';
- comment = '#141b1f';
+ comment = '#546e7a';
  specialcomment = '#253137';
 
  linenr = '#00e676';
