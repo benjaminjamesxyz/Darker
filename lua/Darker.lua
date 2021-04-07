@@ -2,7 +2,7 @@ local Darker = {
  bg = '#0c1012';
  fg = '#dbdbdb';
 
- visual = '#141c1f';
+ visual = '#40526e';
  comment = '#546e7a';
  specialcomment = '#253137';
 
