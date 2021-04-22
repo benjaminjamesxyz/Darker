@@ -89,6 +89,11 @@ local Darker = {
 
  scssVariable = '#E91E63';
 
+ statusFileName = '';
+ statusCocStatus = '';
+ statusPercentage = '';
+ statusLineColumnNumber = '';
+
 }
 
 function Darker.highlight(group, color)
@@ -207,6 +212,11 @@ function Darker.load_syntax()
  plugName = {fg=Darker.plugName, gui=Darker.bold};
 
  scssVariable = {fg=Darker.scssVariable};
+
+ StatusFileName = {fg=Darker.statusFileName};
+ StatusCocStatus = {fg=Darker.statusCocStatus};
+ StatusPercentage = {fg=Darker.statusPercentage};
+ StatusLineColumnNumber = {fg=Darker.statusLineColumnNumber}
 
  }
  return syntax
