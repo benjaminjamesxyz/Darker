@@ -91,8 +91,8 @@ local Darker = {
 
  statusFileName = '#ff3d00';
  statusCocStatus = '#1979e6';
- statusPercentage = '';
- statusLineColumnNumber = '';
+ statusPercentage = '#00ff6a';
+ statusLineColumnNumber = '#00ff6a';
 
 }
 
