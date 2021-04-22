@@ -90,7 +90,7 @@ local Darker = {
  scssVariable = '#E91E63';
 
  statusFileName = '#ff3d00';
- statusCocStatus = '';
+ statusCocStatus = '#1979e6';
  statusPercentage = '';
  statusLineColumnNumber = '';
 
