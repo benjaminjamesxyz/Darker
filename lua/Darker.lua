@@ -221,7 +221,8 @@ function Darker.load_syntax()
  StatusPercentage = {fg=Darker.statusPercentage};
  StatusLineColumnNumber = {fg=Darker.statusLineColumnNumber};
  StatusFileType = {fg=Darker.statusFileType};
-
+ StatusFileEncoding = {fg=Darker.statusFileEncoding};
+ StatusFileFormat = {fg=Darker.statusFileFormat};
  }
  return syntax
 end
