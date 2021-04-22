@@ -93,6 +93,7 @@ local Darker = {
  statusCocStatus = '#1979e6';
  statusPercentage = '#00ff6a';
  statusLineColumnNumber = '#00ff6a';
+ statusFileType = '#9c00eb';
 
 }
 
@@ -216,7 +217,8 @@ function Darker.load_syntax()
  StatusFileName = {fg=Darker.statusFileName};
  StatusCocStatus = {fg=Darker.statusCocStatus};
  StatusPercentage = {fg=Darker.statusPercentage};
- StatusLineColumnNumber = {fg=Darker.statusLineColumnNumber}
+ StatusLineColumnNumber = {fg=Darker.statusLineColumnNumber};
+ StatusFileType = {fg=Darker.statusFileType};
 
  }
  return syntax
