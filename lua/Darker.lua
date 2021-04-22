@@ -94,6 +94,8 @@ local Darker = {
  statusPercentage = '#00ff6a';
  statusLineColumnNumber = '#00ff6a';
  statusFileType = '#9c00eb';
+ statusFileEncoding = '#ffd600';
+ statusFileFormat = '#ff1468';
 
 }
 
